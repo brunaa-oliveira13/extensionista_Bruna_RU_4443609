@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fcf9f9;
+}
+body{
+    background-color: #000;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display:flex;  
+}
+header{
+    padding: 40px 4%;
+}
+header a{
+    color: #8a8a8a;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 80px;
+}
+header a:hover{
+    color: #63e3f1;
+    transform: scale(1.05);
+}
+
+section.topo_site{
+    padding: 40 px 4%;
+}
+section.topo_site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.inicio h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.inicio h1 span{
+    color:#63e3f1
+}
+.inicio p{
+    color: #fff;
+    margin: 40px 0px;
+}
+.img_robo img{
+    position: relative;
+}
+
+.txt-educacao{
+    color: #fff;
+}
+.educacao h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 30px 0px;
+}
+.educacao h1 span{
+    color:#63e3f1
+}
+.educacao p{
+    color: #fff;  
+}
+.educacao h3{
+    color: #b9b7b7;
+}
+.educacao ul{
+    margin: 0px 20px;
+}
+.saude-mental h1{ 
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 30px 0px;
+}
+.saude-mental h1 span{
+    color: #63e3f1;
+}
+.saude-mental ul{
+    margin: 0px 20px;
+}
+.saude-mental h3{
+    color: #b9b7b7;
+}
+.txt-educacao{
+    color: #fff;
+}
+.alimentacao-saudavel h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 30px 0px;
+}
+.alimentacao-saudavel h1 span{
+    color:#63e3f1
+}
+.alimentacao-saudavel p{
+    color: #fff;
+}
+.alimentacao-saudavel ul{
+    margin: 0px 20px;
+}
+.alimentacao-saudavel h3{
+    color: #b9b7b7;
+}
+.imagens{
+    display: inline-block;
+    padding: 0 0px;
+}
+.contato h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 30px 0px;
+}
+.contato h1 span{
+    color:#63e3f1
+}
+.contato p{
+    color: #fff;
+}
+footer {
+	color: #8a8a8a;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
